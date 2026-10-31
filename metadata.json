@@ -1,0 +1,8 @@
+{
+  "name": "Генератор паролей",
+  "description": "Генератор надежных паролей с настройкой параметров, проверкой надежности, сохранением паролей и QR-кодами",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
