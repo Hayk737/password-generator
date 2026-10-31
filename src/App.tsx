@@ -273,6 +273,11 @@ export default function App() {
       {/* Simple Footer */}
       <footer className={`${isLight ? 'border-slate-200 text-slate-600 bg-white/50' : 'border-slate-800/60 text-slate-500'} border-t py-4 text-center text-xs sm:text-sm`}>
         <p>Криптографическая безопасность <code className={`${isLight ? 'text-indigo-600 bg-indigo-50 px-1.5 py-0.5 rounded border border-indigo-100 font-bold' : 'text-cyan-400'} font-mono`}>crypto.getRandomValues</code> • Все данные обрабатываются строго локально в вашем браузере.</p>
+        <p className="mt-1">
+          <a href="https://seobomba.net/shop/" className={`${isLight ? 'text-indigo-600 hover:text-indigo-700' : 'text-cyan-400 hover:text-cyan-300'} underline underline-offset-2 transition-colors`}>
+            Продвижение сайтов
+          </a>
+        </p>
       </footer>
     </div>
   );
